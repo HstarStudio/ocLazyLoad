@@ -414,6 +414,15 @@
                     if (!angular.isString(moduleName)) {
                         throw new Error('You need to give the name of the module to get');
                     }
+                    /*region Newkit逻辑*/
+                    if (moduleName.indexOf('m!') === 0 && moduleName.length > 2) {
+                        var folder = moduleName.replace('m!', '');
+                        modules[moduleName] = {
+                            name: moduleName,
+                            files: ['/modules/' + folder + '/app.js']
+                        };
+                    }
+                    /*endregion*/
                     if (!modules[moduleName]) {
                         return null;
                     }

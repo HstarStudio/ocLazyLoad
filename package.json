@@ -5,7 +5,7 @@
   "main": "dist/ocLazyLoad.js",
   "author": "Olivier Combe <olivier.combe@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/ocombe/ocLazyLoad",
+  "homepage": "https://github.com/HstarStudio/ocLazyLoad",
   "directories": {
     "example": "examples"
   },
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ocombe/ocLazyLoad.git"
+    "url": "https://github.com/HstarStudio/ocLazyLoad.git"
   },
   "keywords": [
     "lazy load",
@@ -28,7 +28,7 @@
     "angularJS"
   ],
   "bugs": {
-    "url": "https://github.com/ocombe/ocLazyLoad/issues"
+    "url": "https://github.com/HstarStudio/ocLazyLoad/issues"
   },
   "devDependencies": {
     "bower": "~1.4.1",

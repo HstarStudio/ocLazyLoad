@@ -63,7 +63,7 @@ module.exports.conf = {
     autoWatch: true,
 
     // we use Firefox because it's the only one available in travis
-    browsers: ['Firefox'],
+    browsers: ['Chrome'],
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
