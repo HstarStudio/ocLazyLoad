@@ -3,6 +3,7 @@
 
 Lazy load modules & components in AngularJS
 
+**Fork之后的变更：在加载模块时，判断是否有特定格式的依赖模块，如果有，那么先加载依赖模块。特定格式['m!xxx']，以m!开头的模块引用。**
 ----
 <p align="center">
 
